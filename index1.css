@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.7em;
+    align-items: center;
+    margin-left: 30px;
+}
+.sidemenu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    flex: 2;
+    gap: 45px;
+}
+.maintext1{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding: 2.5em;
+    margin-left: 30px;
+}
+.illustration1 img{
+    width: 600px;
+    height: 500px;
+    
+}
+.illustration2 img{
+    width: 600px;
+    height: 500px;
+}
+.maintext2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    padding: 2.5em;
+    margin-left: 30px;
+}
+.mainpara1{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: center;
+}
+.para1{
+    margin-top: 15px;
+}
+.input{
+    margin-top: 20px;
+}
+input{
+    padding: 10px;
+    width: 53%;
+}
+button{
+    margin-left: 10px;
+    padding: 10px;
+    width: 34%;
+    background-color: rgb(30, 92, 206);
+    border-style: none;
+    color: white;
+}
+.mainpara2{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: center;
+}
+.card{
+    margin-top: 30px;
+    width: 350px;
+    height: 250px;
+    border-radius: 4px ;
+    box-shadow: 0px 0px 10px 0px rgb(9, 9, 11,0.5);
+    padding: 2em;
+}
+.card1 img{
+    float: left;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.access{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2.5em;
+    background-color: #4F709C;
+    justify-content: space-around;
+}
+.class1{
+    width: 60%;
+    margin-left: 40px;
+    color: white;
+}
+.site{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.para5{
+    margin-top: 20px;
+}
+input{
+    width: 60%;
+}
+.site button{
+    margin-top: 10px;
+    background-color: rgb(30, 92, 206);
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #0C134F;
+    color: white;
+    padding: 4.5em;
+}
+footer ul li{
+    list-style: none;
+    display: grid;
+    row-gap: 20px;
+}
+footer div{
+    margin-left: 30px;
+}
+a .fa-brands{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    border-radius: 50%;
+    border: 2px solid antiquewhite;
+    width: 30px;
+    height: 30px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.card img{
+    margin-top: 30px;
+}
+.ceo{
+    margin-top: 35px;
+    margin-left: 10px;
+    
+}
+.mainpara2 a{
+    color: rgb(58, 217, 58);
+    margin-top: 10px;
+}
+.list1{
+    margin-top: 54px;
+}
+.list2{
+    margin-top: 54px;
+}
+.socialicons{
+    margin-top: 54px;
+}
+footer ul li{
+    margin-top: 10px;
+}
+.logo2 p{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1.5em;
+    }
+  
+    .sidemenu ul {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 20px;
+      gap: 20px;
+    }
+  
+    .maintext1 {
+      display: block;
+      padding: 1.5em;
+      margin-left: 0;
+    }
+  
+    .illustration1 img,
+    .illustration2 img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .maintext2 {
+      display: block;
+      margin-top: 50px;
+      padding: 1.5em;
+      margin-left: 0;
+    }
+  
+    .mainpara1,
+    .mainpara2 {
+      width: 100%;
+    }
+  
+    .card {
+      width: 100%;
+      height: auto;
+      padding: 1em;
+    }
+  
+    input[type="text"],
+    button {
+      width: 100%;
+    }
+  
+    footer {
+      display: block;
+      padding: 2.5em;
+    }
+  
+    footer div {
+      margin-left: 0;
+    }
+  
+    .list1 ul,
+    .list2 ul {
+      margin-top: 0;
+    }
+  
+    .logo2 p {
+      margin-top: 20px;
+    }
+
+  }
+  
+
+
